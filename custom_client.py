@@ -23,8 +23,10 @@ class MyRequestClass(TwilioHttpClient):
         request = Request(**kwargs)
 
         prepped_request = session.prepare_request(request)
-        session.proxies.update(
-            {'http': os.getenv('HTTP_PROXY'), 'https': os.getenv('HTTPS_PROXY')})
+        session.proxies.update({
+            'http': os.getenv('HTTP_PROXY'),
+            'https': os.getenv('HTTPS_PROXY')
+        })
         response = session.send(
             prepped_request,
             allow_redirects=allow_redirects,
