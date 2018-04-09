@@ -1,6 +1,6 @@
 # Custom HTTP Clients for the Twilio Python Helper Library
 
-Use the twilio-python helper library with a proxy server
+Use the twilio-python helper library with a proxy server.
 
 ## Usage
 
