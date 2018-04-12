@@ -18,4 +18,4 @@ message = client.messages \
         from_="+15017122661"
     )
 
-print(f'Message SID: {message.sid}')
+print('Message SID: {}'.format(message.sid))
