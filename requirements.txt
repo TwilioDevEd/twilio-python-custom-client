@@ -1,2 +1,2 @@
-twilio==6.11.0
+twilio==6.44.2
 python-dotenv
